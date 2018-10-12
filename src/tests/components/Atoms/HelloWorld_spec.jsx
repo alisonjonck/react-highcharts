@@ -1,4 +1,4 @@
-import HelloWorld from '../../components/Atoms/HelloWorld.jsx';
+import HelloWorld from '../../../components/Atoms/HelloWorld.jsx';
 
 describe('<HelloWorld /> tests', function () {
     it('renders Hello World', function () {
