@@ -1,7 +1,17 @@
 import React from 'react';
 
-const Card = () => {
-    return <div></div>;
+const cardStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+};
+
+const Card = (props) => {
+    return (
+        <div style={cardStyle}>
+            {props.children}
+        </div>
+    );
 };
 
 export default Card;
