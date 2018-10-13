@@ -3,7 +3,9 @@ import React from 'react';
 const cardStyle = {
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    flexDirection: 'column',
+    padding: 10
 };
 
 const Card = (props) => {

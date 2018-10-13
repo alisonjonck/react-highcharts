@@ -5,5 +5,7 @@ describe('<Card /> tests', function () {
         const wrapper = mount(<Card />);
 
         expect(wrapper.find(Card)).to.have.length(1);
+
+        wrapper.unmount();
     });
 });
