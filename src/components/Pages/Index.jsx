@@ -1,13 +1,13 @@
 import React from 'react';
 import Card from '../Atoms/Card.jsx';
 import HelloWorld from '../Atoms/HelloWorld.jsx';
-import ColumnChart from '../Mols/ColumnChart.jsx';
+import ScatterPlotChart from '../Mols/ScatterPlotChart.jsx';
 
 const Index = () => {
     return (
         <Card>
             <HelloWorld />
-            <ColumnChart />
+            <ScatterPlotChart />
         </Card>
     );
 }
