@@ -5,5 +5,7 @@ describe('<HelloWorld /> tests', function () {
         const wrapper = mount(<HelloWorld>Hello World!</HelloWorld>);
 
         expect(wrapper.find(HelloWorld)).to.have.length(1);
+        
+        wrapper.unmount();
     });
 });
