@@ -16,7 +16,8 @@
     "debug": "mocha --inspect-brk --require babel-core/register -r ./src/**/**/**.js* \"./src/**/**/*_spec.js*\"",
     "start": "webpack-dev-server --mode development",
     "build": "webpack",
-    "coverage": "cross-env NODE_ENV=test nyc report --reporter=text-lcov > coverage.lcov"
+    "coverage": "cross-env NODE_ENV=test nyc report --reporter=text-lcov > coverage.lcov",
+    "tdd-coverage": "cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --require babel-core/register -r ./src/**/**/**.js* \"./src/**/**/*_spec.js*\""
   },
   "repository": {
     "type": "git",
