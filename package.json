@@ -55,7 +55,7 @@
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
-    "highcharts": "^6.1.4",
+    "highcharts": "^9.0.0",
     "highcharts-react-official": "^1.4.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
